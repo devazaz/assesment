@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import icon from "../assets/header-icon.svg";
+import icon from "../../src/assets/header-icon.svg";
 import bannerStar from "../assets/bannerStart.svg";
 
 const Header = () => {
@@ -28,7 +28,7 @@ const Header = () => {
       <div className="flex flex-wrap justify-between items-center bg-gradient-to-r from-[#ffffff90] via-[#ffffff30] to-[#ffffff90] border border-white w-[85%] mx-auto max-w-[1180px] py-[5px] px-[20px] rounded-[40px]">
         {/* Logo */}
         <div className="w-[120px] sm:w-[156px]">
-          <img src={icon} alt="Header Icon" />
+          <img src="/hiringProcess.svg" alt="Header Icon" />
         </div>
 
         {/* Desktop Navigation */}
